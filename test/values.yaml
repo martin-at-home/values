@@ -1,5 +1,5 @@
 prometheus-pushgateway:
-  enabled: true
+  enabled: false
   serviceAnnotations:
     prometheus.io/probe: pushgateway
 mga-param:
