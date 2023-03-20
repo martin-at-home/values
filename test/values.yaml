@@ -1,0 +1,6 @@
+prometheus-pushgateway:
+  enabled: false
+  serviceAnnotations:
+    prometheus.io/probe: pushgateway
+mga-param:
+   super: true
